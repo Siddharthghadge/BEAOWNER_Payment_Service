@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @FeignClient(
         name = "bookingservice",
-        url = "${BOOKING.SERVICE.URL}"
+        url = "${booking.service.url}"
 )
 public interface BookingServiceClient {
 
